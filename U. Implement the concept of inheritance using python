@@ -1,0 +1,23 @@
+class Shape:
+    author = 'Nischay malhan'
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def area(self):
+        a = self.x * self.y
+        print('Area of a rectangle:', a)
+        print(Shape.author)
+class Square(Shape):
+    def __init__(self, x):
+        self.x = x
+    def area(self):
+        a = self.x * self.x
+        print('Area of a square:', a)
+        print(Shape.author)
+
+rect = Shape(5, 10)
+rect.area()
+
+sq = Square(6)
+sq.area()
