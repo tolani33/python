@@ -1,0 +1,7 @@
+def histogram(lst):
+    for i in lst:
+        print('*' * i)
+
+
+lst = [4, 7, 3, 5]
+histogram(lst)
