@@ -1,0 +1,15 @@
+class Numbers:
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def add(self):
+        return self.x + self.y
+
+    def multiply(self):
+        MULTIPLIER = 7.4
+        return self.x * MULTIPLIER
+
+num = Numbers(5, 10)
+print("Sum:", num.add())
+print("Multiply:", num.multiply())
