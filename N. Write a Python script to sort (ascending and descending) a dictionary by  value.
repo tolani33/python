@@ -1,0 +1,11 @@
+released = {'Python 3.6': 2017, 'Python 1.0': 2002, 'Python 2.3': 2010}
+
+for key, value in sorted(released.items(), key=lambda item: item[1]):
+    print(key, value)
+
+print()
+
+for key, value in sorted(released.items(), key=lambda item: item[1], reverse=True):
+    print(key, value)
+
+print(sorted(released))
