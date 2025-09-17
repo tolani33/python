@@ -1,0 +1,3 @@
+d = {'One': 50, 'Two': 20, 'Three': 30}
+total = sum(d.values())
+print(total)
